@@ -113,16 +113,12 @@ body { background-color:#B22222; font-family: 'Georgia', serif; color: #000; }
     justify-content: center;
     align-items: center;
     position: relative;       /* ADICIONE ISSO: Para os botões grudarem no slide */
-    font-family: sans-serif;
-    color: white;
-    font-size: 3rem;
 }
-
-/* ============================================================
-   BOTÕES DE NAVEGAÇÃO (PREV/NEXT)
-   ============================================================ */
-
-/* Botão Anterior: Cola na borda esquerda da tela */
+.slide img {
+    max-width: 100%; /* Limita a largura da imagem para não ultrapassar o slide */
+    max-height: 130%; /* Limita a altura da imagem para não ultrapassar o slide */
+    object-fit: contain; /* Garante que a imagem mantenha suas proporções */
+}
 
 /* ============================================================
    RODAPÉ (FOOTER)
